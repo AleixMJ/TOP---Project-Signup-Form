@@ -82,3 +82,22 @@ body {
     height: 35%;
     width: 100%;
 }
+
+#form-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 400px;
+
+}
+
+#form-box div {
+    padding: 20px;
+    padding-left: 100px;
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#form-box div input {
+    width: 80%;
+}
