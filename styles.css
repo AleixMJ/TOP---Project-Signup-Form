@@ -62,7 +62,7 @@ body {
     
 }
 
-#top {
+#top, #createAccount {
     box-sizing: border-box;    
     height: 40%;
     width: 100%;
@@ -72,18 +72,12 @@ body {
     
 }
 
-#center {
-    height: 25%;
-    width: 100%;
-    background-color: white;
-}
 
-#bottom {
-    height: 35%;
-    width: 100%;
-}
+
+
 
 #form-box {
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-right: 400px;
